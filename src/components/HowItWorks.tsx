@@ -6,29 +6,29 @@ const HowItWorks: React.FC = () => {
     {
       step: '01',
       title: 'Download & Register',
-      description: 'Download the LuckyWin app and create your account in seconds. Get a welcome bonus to start playing!',
+      description: 'Download the LuckyWin app and create your account with your email. Complete your profile to participate in lucky draws!',
       icon: 'fas fa-download',
       color: '#667eea'
     },
     {
       step: '02',
-      title: 'Choose Your Game',
-      description: 'Select from daily lotteries, instant scratch cards, or jackpot games. Pick your lucky numbers!',
+      title: 'Participate in Lucky Draw',
+      description: 'Simply use the app daily and your name automatically enters our lucky draw system. No extra steps needed!',
       icon: 'fas fa-dice',
       color: '#ffd700'
     },
     {
       step: '03',
-      title: 'Play & Win',
-      description: 'Purchase tickets, watch live draws, and check results instantly. Win prizes every day!',
+      title: 'Wait for Results',
+      description: 'Our system randomly selects winners daily. If your name comes up in the lucky draw, you win instantly!',
       icon: 'fas fa-trophy',
       color: '#ff6b6b'
     },
     {
       step: '04',
-      title: 'Get Paid',
-      description: 'Withdraw your winnings instantly to your bank account or digital wallet. No delays, no hassle!',
-      icon: 'fas fa-money-bill-wave',
+      title: 'Prize Distribution',
+      description: 'Winners are contacted via email and receive an in-app message. We handle prize distribution directly to your account!',
+      icon: 'fas fa-envelope',
       color: '#4ade80'
     }
   ];
@@ -37,9 +37,9 @@ const HowItWorks: React.FC = () => {
     <section id="how-it-works" className="how-it-works">
       <div className="container">
         <div className="section-header animate-fade-up">
-          <h2 className="section-title">How It Works</h2>
+          <h2 className="section-title">How Lucky Draw Works</h2>
           <p className="section-subtitle">
-            Start winning in 4 simple steps. It's that easy!
+            Simple lucky draw system - just use the app and win! We contact winners directly.
           </p>
         </div>
 
@@ -99,23 +99,23 @@ const HowItWorks: React.FC = () => {
             </div>
             
             <div className="demo-text">
-              <h3>See It In Action</h3>
+              <h3>Simple Lucky Draw System</h3>
               <p>
-                Our intuitive interface makes playing lottery games fun and easy. 
-                With just a few taps, you can select numbers, buy tickets, and check results.
+                Just download and use our app daily! Your account automatically enters our lucky draw system. 
+                Winners are selected randomly and contacted immediately.
               </p>
               <div className="demo-features">
                 <div className="demo-feature">
-                  <i className="fas fa-lightning-bolt"></i>
-                  <span>Instant ticket purchase</span>
+                  <i className="fas fa-envelope"></i>
+                  <span>Email winner notification</span>
                 </div>
                 <div className="demo-feature">
-                  <i className="fas fa-bell"></i>
-                  <span>Live draw notifications</span>
+                  <i className="fas fa-mobile-alt"></i>
+                  <span>In-app prize messages</span>
                 </div>
                 <div className="demo-feature">
-                  <i className="fas fa-chart-line"></i>
-                  <span>Real-time results</span>
+                  <i className="fas fa-gift"></i>
+                  <span>Direct prize distribution</span>
                 </div>
               </div>
             </div>

@@ -20,8 +20,7 @@ const Header: React.FC = () => {
         </nav>
 
         <div className="header-actions">
-          <button className="btn-secondary">Login</button>
-          <button className="btn-primary">Download App</button>
+          <a href="https://drive.google.com/file/d/1S2OTvGExMUEQXpLeFE5CSXM0P6aKb3wX/view?usp=drive_link" className="btn-primary" target="_blank" rel="noopener noreferrer">Download App</a>
         </div>
 
         <button 

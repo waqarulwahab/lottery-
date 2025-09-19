@@ -71,10 +71,10 @@ const Features: React.FC = () => {
           <div className="cta-content">
             <h3>Ready to Start Winning?</h3>
             <p>Join thousands of daily winners and start your lottery journey today!</p>
-            <button className="btn-cta">
+            <a href="https://drive.google.com/file/d/1S2OTvGExMUEQXpLeFE5CSXM0P6aKb3wX/view?usp=drive_link" className="btn-cta" target="_blank" rel="noopener noreferrer">
               <i className="fas fa-rocket"></i>
               Get Started Now
-            </button>
+            </a>
           </div>
           <div className="cta-visual">
             <div className="winning-animation">

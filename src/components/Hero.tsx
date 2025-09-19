@@ -31,10 +31,10 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="hero-buttons">
-            <button className="btn-hero-primary animate-pulse">
+            <a href="https://drive.google.com/file/d/1S2OTvGExMUEQXpLeFE5CSXM0P6aKb3wX/view?usp=drive_link" className="btn-hero-primary animate-pulse" target="_blank" rel="noopener noreferrer">
               <i className="fas fa-download"></i>
               Download Free App
-            </button>
+            </a>
             <button className="btn-hero-secondary">
               <i className="fas fa-play"></i>
               Watch Demo
